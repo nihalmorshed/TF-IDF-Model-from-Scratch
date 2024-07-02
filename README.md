@@ -1,7 +1,7 @@
 
 # NLP Project: TF-IDF from Scratch
 
-This project showcases the implementation of a Term Frequency-Inverse Document Frequency (TF-IDF) model from scratch using Python. The goal is to preprocess textual data, tokenize the text, and compute the TF-IDF scores without relying on existing libraries.
+This project showcases implementing a Term Frequency-Inverse Document Frequency (TF-IDF) model from scratch using Python. The goal is to preprocess textual data, tokenize the text, and compute the TF-IDF scores without relying on existing libraries.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -14,7 +14,7 @@ This project showcases the implementation of a Term Frequency-Inverse Document F
 
 ## Project Overview
 
-In this project, I have demonstrated how to build a TF-IDF model from the ground up. This includes steps for data preprocessing, tokenization, creating word to index mapping as well as reverse mapping and the computation of TF-IDF scores. The project is implemented in a Jupyter Notebook, making it easy to follow along and understand each step of the process.
+In this project, I have demonstrated how to build a TF-IDF model from the ground up. This includes steps for data preprocessing, tokenization, creating word-to-index mapping as well as reverse mapping, and the computation of TF-IDF scores. The project is implemented in a Jupyter Notebook, making it easy to follow along and understand each step of the process.
 
 ## Dataset
 
@@ -49,6 +49,8 @@ jupyter notebook TF_IDF_from_Scratch.ipynb
 - **Data Loading**: Load the dataset into a pandas DataFrame.
 - **Text Preprocessing**: Tokenize the text data using NLTK.
 - **TF-IDF Calculation**: Compute TF-IDF scores from scratch.
+- **Word-to-Index Mapping**: Created a unique mapping of words to indices.
+- **Reverse Mapping**: Enabled conversion from indices back to words.
 - **Result Visualization**: Display the computed TF-IDF scores.
 
 ## Contributing
